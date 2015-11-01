@@ -1,0 +1,396 @@
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    background-color: #FEFCF7;
+    height: 100%;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #7BE0E0;
+
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+ul li {
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    vertical-align: middle;
+}
+
+header{
+    font-family: 'Montserrat', sans-serif;
+}
+/* columns */
+
+@media (min-width: 40em) {
+  .column {
+    float: left;
+    padding-top: 1em;
+    }
+  
+  .column.full { width: 100%; }
+  .column.three-fourths { width: 75%; }
+  .column.two-thirds { width: 66.7%; }
+  .column.half { width: 50%; }
+  .column.third { width: 33.3%; }
+  .column.fourth { width: 25%; }
+  .column.flow-opposite { float: right; }  
+}
+
+/* landing page */
+
+.header1 {
+    background-color: #7BE0E0;
+    line-height: 60px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.header1 ul li{
+    margin: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.header1 ul li a:hover{
+    color: white;
+    border-bottom: 3px solid white;
+    
+}
+.header2 {
+    background-color: transparent;
+    text-align: center;
+    line-height: 100px;
+    width: 100%;
+    color: black;
+}
+
+.header2 ul li{
+    padding-left: .25em;
+    padding-right: .25em;
+
+
+}
+#landingpage {
+    background-image: url("../img/cone.jpg");
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+/* menu */
+#flavorheading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    padding: .5em;
+    letter-spacing: .05em;
+    text-align: center;
+}
+
+#menu {
+    background-color: ;
+    text-align: center;
+}
+
+#menu p{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.menuitem{
+    padding: 1em;
+}
+
+.flavor{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.description{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.icetype{
+    font-size: 2em;
+    padding-bottom: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+/* put menu styles here */
+
+
+
+
+
+/* second image page */
+
+#secondpic{
+background-image: url("../img/summer.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+/* info */
+#info{
+    background-color: white;
+    color: black;
+}
+
+#about{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.aboutp{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+#times,#address{
+    padding-bottom: 1em;
+    font-family: "Raleway", sans-serif;
+}
+
+strong{
+    font-weight: 600;
+}
+
+/* footer styles */
+footer{
+    height: 100px;
+    background: #404040;
+    text-align: center;
+    margin-bottom: 0;
+    overflow: hidden;
+
+}
+
+@media (min-device-width: 1200px){
+    .container{
+        width: 960px;
+        padding-top: 2em;
+        padding-bottom: 2.5em;
+        vertical-align: middle;
+    }
+}
+
+#times, #address{
+    text-align: center;
+}
+
+#map{
+    height: 25vh;
+    width: 100%;
+    background-color: cyan;
+}
+
+
+footer i{
+    color: white;
+    padding-right:.5em;
+}
+
+footer i:hover{
+color: #7BE0E0;
+}
+
+/* Others */
+/* clear fix nicolas gallagher*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.menui {
+  background: #fff;
+  transition: 0.6s ease;
+  transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
+  margin-top: 10px;
+  position: absolute;
+}
+
+.icon {
+  z-index: 999;
+  position: fixed;
+  display: block;
+  padding: 9px;
+  height: 32px;
+  width: 32px;
+  margin: 0px;
+  top: 0;
+  left: 0;
+}
+
+.mobilenav {
+  font-family: "Montserrat", sans-serif;;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #7BE0E0;
+  opacity: .95;
+  text-transform: uppercase;
+}
+
+.mobilenav li {
+  list-style-type: none;
+  text-align: center;
+  padding: 2em;
+}
+
+.mobilenav li a {
+  font-size: 130%;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  width: 100%;
+}
+
+.mobilenav li a:hover {
+  border-bottom: 3px solid white;
+}
+
+.mobilenav li:first-child { margin-top: 60px; }
+
+
+.top-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.mid-animate { opacity: 0; }
+
+.bottom-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(-225deg);
+  transform: rotate(-225deg);
+}
+
+.top-menu {
+  top: 5px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #7BE0E0;;
+}
+
+.mid-menu {
+  top: 13px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #7BE0E0;;
+}
+
+.bottom-menu {
+  top: 21px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #7BE0E0;;
+}
+/* mobible specific rules */
+
+.hamburger{
+  display: none;
+}
+#smalllogo{
+  display: none;
+}
+@media(max-width: 780px){
+  .container{
+    width: 90%;
+  }
+
+  .hamburger{
+  display: block;
+}
+.header2,.header1{
+  display: none;
+}
+
+#smalllogo{
+  display: block;
+  text-align: center;
+  padding-top: 1em;
+}
+#flavorheading{
+  font-size: 2.5em;
+  text-align: center;
+}
+.icetype{
+  font-size: 2em;
+  color: #7BE0E0;
+}
+footer i{
+  padding: .10em;
+}
+
+}
