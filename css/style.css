@@ -592,6 +592,10 @@ header, #intro h1, #intro h5, .about h1, .column.third {
      #looper.column.third{
         width: 100%;
     }
+
+    footer{
+        height:125px;
+    }
 }
 
 /* montys */
