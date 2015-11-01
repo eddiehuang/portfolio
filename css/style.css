@@ -586,6 +586,7 @@ header, #intro h1, #intro h5, .about h1, .column.third {
 
     #intro h1{
         font-size: 1.8em;
+        text-align: left;
     }
     /* temp fix */
      #looper.column.third{
