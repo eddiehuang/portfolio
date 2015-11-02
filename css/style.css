@@ -180,7 +180,7 @@ nav ul li a:hover{
 #work{
     font-size: 1.2em;
     font-family: 'Roboto Slab', serif;
-    padding-bottom: 2em;
+    padding-bottom: 2.75em;
 }
 #work h1{
     font-weight: 900;
@@ -399,6 +399,9 @@ footer p i:hover{
      #intro h1{
         font-size: 2.25em;
     }
+    #work{
+        padding-bottom: 0.5em;
+    }
   
 }
 
@@ -596,6 +599,11 @@ header, #intro h1, #intro h5, .about h1, .column.third {
     footer{
         height:125px;
     }
+
+    #work{
+        padding-bottom: 1em;
+    }
+
 }
 
 /* montys */
