@@ -318,11 +318,6 @@ footer p i:hover{
 
 /* mid specifics layouts */
 @media(max-width: 804px){
-
-    .aboutcontainer h2{
-    letter-spacing: .05em;
-}
-
     #regular{
         display: none;
     }
