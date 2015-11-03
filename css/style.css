@@ -365,6 +365,10 @@ footer p i:hover{
         width: 90%
     }
 
+    .aboutcontainer h2{
+        letter-spacing: 0;
+    }
+
     .column.third{
         display: inline-block;
         float: left;
