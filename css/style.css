@@ -611,7 +611,7 @@ header, #intro h1, #intro h5, .about h1, .column.third {
 
 /* montys */
 #aboutimagesmonty{
-    height: 35vh;
+    height: 25vh;
     background-image: url("../img/monty.png");
     background-size: cover;
     background-repeat: no-repeat;
