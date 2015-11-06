@@ -152,17 +152,17 @@ nav ul li a:hover{
     background: #323232;
     color: white;
     font-family: 'Quattrocento', serif;
-    font-weight: 100;
     text-align: left
 }
 
 #intro h1{
     font-size: 3em;
+    font-weight: 600;
     padding-right: 1.5em;
     padding-left: .8em;
     padding-top: 2.75em;
     padding-bottom: 1.5em;
-    letter-spacing: .02em;
+    letter-spacing: .05em;
     height: 275px;
 }
 
