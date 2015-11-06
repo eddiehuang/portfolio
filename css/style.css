@@ -285,6 +285,10 @@ footer p i:hover{
     font-family: 'Roboto Slab', serif;
 }
 
+.aboutpageheadings{
+    text-align: left !important;
+}
+
 /* changemedia */
 
 .aboutcontainer{
