@@ -481,6 +481,7 @@ header, #intro h1, #intro h5, .about h1, .column.third {
 
 .caption__overlay__title {
     text-align: center;
+    font-weight: 200;
     -webkit-transform: translateY( -webkit-calc(-100% - 0px) );
             transform: translateY( calc(-100% - 0px) );
 
