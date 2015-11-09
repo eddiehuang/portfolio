@@ -374,6 +374,10 @@ footer p i:hover{
         letter-spacing: 0;
     }
 
+    .aboutcontainer p{
+        line-height: 140%;
+    }
+
     .column.third{
         display: inline-block;
         float: left;
@@ -612,7 +616,6 @@ header, #intro h1, #intro h5, .about h1, .column.third {
     #work{
         padding-bottom: 1em;
     }
-
 }
 
 /* montys */
