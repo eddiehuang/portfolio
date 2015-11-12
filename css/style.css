@@ -358,7 +358,8 @@ footer p i:hover{
     }
 
     #intro h1{
-        text-align: center;
+        text-align: left;
+        font-weight: 900;
         margin: 0 auto;
         padding: 4em 2em;
     }
