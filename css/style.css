@@ -59,8 +59,12 @@ li{
     font-family: 'Quattrocento', serif;
 }
 
+.center{
+    text-align: center;
+}
+
 .button{
-    width: 8em;
+    width: 8.75em;
     border: 1px solid black;
     padding: .4em;
     color: black;
@@ -93,7 +97,7 @@ li{
 }
 
 #hamburger:hover{
-    color:#D10C2A;
+    color:#2980b9;
     cursor: pointer;
 }
 
@@ -107,7 +111,7 @@ li{
 }
 
 #rmenu ul li a:hover{
-    color: #D10C2A;
+    color: #2980b9;;
 }
 
 header{
@@ -116,11 +120,15 @@ header{
     font-size: 4em;
     color: #323232;
     padding-top: .14em;
-    padding-bottom:.25em;
+    padding-bottom:.14em;
     text-transform: uppercase;
     text-shadow: -2px 2px 0px #fff, -4px 4px 0px rgba(0,0,0,0.15);
-  
 }
+
+header:hover{
+color: #2980b9;
+}
+
 
 nav{
     display: inline-block;
@@ -143,54 +151,60 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-    color: #CC333F;
+    color: #2980b9;;
 }
-
 
 /*intro*/
 #intro{
-    background: #323232;
+    height: 90vh;
+    background-image: url("../img/frontpage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
     color: white;
     font-family: 'Quattrocento', serif;
-    text-align: left
+    text-align: left;
+
 }
 
 #intro h1{
     font-size: 3em;
-    font-weight: 600;
-    padding-right: 1.5em;
-    padding-left: .8em;
-    padding-top: 2.75em;
-    padding-bottom: 1.5em;
-    letter-spacing: .04em;
-    height: 275px;
+    font-weight: 400;
+    padding-top: 3em;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
 }
 
-#intro h5{
-    font-size: 1em;
-    padding: 1.5em;
-    font-family: 'Quattrocento', serif;
-    letter-spacing: .15em;
-    font-weight: 600;
-    text-align: center;
+#intro h3{
+    font-weight: 100;
+    margin: 0;
+}
+
+#intro h1>span,
+#intro h3>span{
+    background: #2980b9;
+    padding: 10px 20px;
+    line-height: 1.2;
 }
 
 /*work*/ 
 
 #work{
     font-size: 1.2em;
-    font-family: 'Roboto Slab', serif;
     padding-bottom: 4em;
 }
 #work h1{
+    font-size: 2em;
+    text-align: center;
     font-weight: 900;
     color: #323232;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
 }
 
 #work img{
-    vertical-align: bottom;
+    -webkit-filter: grayscale(1);
 }
-
 
 @media (min-width: 40em) {
   .column {
@@ -238,7 +252,7 @@ footer {
 }
 
 #arrow:hover{
-    color: #CC333F;
+    color: #2980b9;
 }
 footer p {
     position: relative;
@@ -251,7 +265,7 @@ footer p i{
 }
 
 footer p i:hover{
-    color: #CC333F;
+    color: #2980b9;
 }
 /* others */
 /* clear fix nicolas gallagher*/
@@ -274,7 +288,7 @@ footer p i:hover{
 
 
 #headtagline{
-    color: #D10C2A;
+    color: #2980b9;
     padding-bottom: 1em;
 
 }
@@ -334,8 +348,8 @@ footer p i:hover{
     #intro h1{
         font-size: 1.75em;
     }
-    #intro h5{
-        font-size: .75em;
+    #intro h3{
+        font-size: .85em;
     }
     
     #hamburger{
@@ -361,7 +375,10 @@ footer p i:hover{
         text-align: center;
         font-weight: 900;
         margin: 0 auto;
-        padding: 4em 2em;
+    }
+
+    #intro h3{
+        text-align: center;
     }
 
     #arrow{
@@ -432,6 +449,7 @@ header, #intro h1, #intro h5, .about h1, .column.third {
 /*
  * Caption component
  */
+
 .caption {
     position: relative;
     overflow: hidden;
@@ -462,11 +480,12 @@ header, #intro h1, #intro h5, .about h1, .column.third {
     min-width: 100%;
     max-width: 100%;
     height: auto;
+
 }
 
 .caption__overlay {
     position: absolute;
-    top: 20%;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
@@ -485,17 +504,22 @@ header, #intro h1, #intro h5, .about h1, .column.third {
 }
 
 .caption:hover .caption__overlay {
+    background-color: rgba(41, 128, 185, .85);
+    transition: background .35s ease-out;
+;
+
     -webkit-transform: translateY(0);
             transform: translateY(0);
+
 }
 
+
 .caption__overlay__title {
+    padding-top: 1em;
     text-align: center;
     font-weight: 200;
     -webkit-transform: translateY( -webkit-calc(-100% - 0px) );
             transform: translateY( calc(-100% - 0px) );
-
-   
 }
 
 .caption:hover .caption__overlay__title {
@@ -545,7 +569,7 @@ header, #intro h1, #intro h5, .about h1, .column.third {
 }
 
 .projectnav li a:hover{
-    color: #D10C2A;
+    color: #2980b9;
 }
 
 /* temp fix */ 
@@ -593,6 +617,16 @@ header, #intro h1, #intro h5, .about h1, .column.third {
 
     .column.third{
         width: 100%;
+    }
+
+    #intro h3{
+        text-align: left;
+    }
+
+    #intro h3>span, #intro h1>span{
+        text-align: left;
+        margin: 0 auto;
+        padding: .1em;
     }
 
 

@@ -130,7 +130,7 @@ header{
 }
 
 #menu {
-    background-color: ;
+    background-color: #FEFCF7;
     text-align: center;
 }
 
@@ -180,8 +180,9 @@ background-image: url("../img/summer.jpg");
 
 /* info */
 #info{
-    background-color: #FEFCF7;
+    background-color: white;
     color: black;
+    background-color: #FEFCF7;
 }
 
 #about{
