@@ -97,7 +97,7 @@ li{
 }
 
 #hamburger:hover{
-    color:#2980b9;
+    color:#16a085;
     cursor: pointer;
 }
 
@@ -111,7 +111,7 @@ li{
 }
 
 #rmenu ul li a:hover{
-    color: #2980b9;;
+    color: #16a085;;
 }
 
 header{
@@ -126,7 +126,7 @@ header{
 }
 
 header:hover{
-color: #2980b9;
+color: #16a085;
 }
 
 
@@ -151,7 +151,7 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-    color: #2980b9;;
+    color: #16a085;
 }
 
 /*intro*/
@@ -182,7 +182,7 @@ nav ul li a:hover{
 
 #intro h1>span,
 #intro h3>span{
-    background: #2980b9;
+    background: #16a085;
     padding: 10px 20px;
     line-height: 1.2;
 }
@@ -203,7 +203,9 @@ nav ul li a:hover{
 }
 
 #work img{
+    opacity: .80;
     -webkit-filter: grayscale(1);
+
 }
 
 @media (min-width: 40em) {
@@ -252,7 +254,7 @@ footer {
 }
 
 #arrow:hover{
-    color: #2980b9;
+    color: #16a085;
 }
 footer p {
     position: relative;
@@ -265,7 +267,7 @@ footer p i{
 }
 
 footer p i:hover{
-    color: #2980b9;
+    color: #16a085;
 }
 /* others */
 /* clear fix nicolas gallagher*/
@@ -288,7 +290,7 @@ footer p i:hover{
 
 
 #headtagline{
-    color: #2980b9;
+    color: #16a085;
     padding-bottom: 1em;
 
 }
@@ -504,7 +506,7 @@ header, #intro h1, #intro h5, .about h1, .column.third {
 }
 
 .caption:hover .caption__overlay {
-    background-color: rgba(41, 128, 185, .85);
+    background-color: rgba(22, 160, 133,.75);
     transition: background .35s ease-out;
 ;
 
@@ -569,7 +571,7 @@ header, #intro h1, #intro h5, .about h1, .column.third {
 }
 
 .projectnav li a:hover{
-    color: #2980b9;
+    color: #16a085;
 }
 
 /* temp fix */ 
