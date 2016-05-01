@@ -205,7 +205,10 @@ nav ul li a:hover{
 #work img{
     opacity: .80;
     -webkit-filter: grayscale(1);
+}
 
+#work .column{
+    padding: 1px;
 }
 
 @media (min-width: 40em) {
@@ -507,7 +510,7 @@ header, #intro h1, #intro h5, .about h1, .column.third {
 
 .caption:hover .caption__overlay {
     background-color: rgba(22, 160, 133,.75);
-    transition: background .35s ease-out;
+    transition: background .25s ease-out;
 ;
 
     -webkit-transform: translateY(0);
